@@ -4,8 +4,7 @@ html{
 }
 
 body { 
-    padding: 0px 20px;
-    margin: 0;
+    margin: 0%;
     background-color: lightblue;
 }
 
@@ -30,8 +29,11 @@ body {
     
 }
 
+.navmobile{
+    display: none;
+}
+
 .navprincipal{
-    padding: 20px;
     margin: auto;
 
 }
@@ -66,12 +68,33 @@ body {
 /* -----------------nav responsive---------------- */
 @media only screen and (max-width: 1014px) {
     body{
-        width: 100%;
+        width: 100vw;
+    }
+
+    .titulo2{
+        display: none;
     }
 
     .navprincipal{
         display: none;
     }
+
+    .navmobile{
+        display: flex;
+        height: auto;
+        width: auto;
+        margin: auto;
+        padding: auto;
+    }
+
+    .iconomobile{
+        margin: 25px;
+        padding: 5px;
+        text-align: center;
+        font-size: 40px;
+        color: aliceblue;
+    }
+
     .contenedor{
         display: flex;
         justify-content: space-between;
@@ -109,14 +132,23 @@ body {
 /* -------------------------- DESTACADOS ----------------*/
 
 .bloquedestacados{
-    background-color: lightblue;
-    padding-bottom: 0;
+    background-color: rgb(221, 206, 106);
+    width: 100%;
+    height: 12vw;
 
 }
 
 .galeria{
     display: grid;
-    grid-template-columns: 33% 33% 34%;
+    width: 800px;
+    height: 800px;
+
+}
+
+
+.imagendestacada {
+    width: 150px;
+    height: 150px;
 }
 
 .titulodestacados{
