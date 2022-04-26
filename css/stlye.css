@@ -128,10 +128,41 @@ body {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (min-width: 920px) {
     .bloquedestacados{
         font-size: 25px;
     }
+
+    .galeria{
+        display: grid;
+        width: 100vw;
+        height: 900px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+    .imagendestaca {
+        margin: 10px auto;
+        width: 150px;
+        height: 200px;
+    
+    }
+
+@media only screen and (min-width 1015px) {
+
+    .galeria{ 
+        display: grid;
+        width: 100vw;
+        height: 800px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    
+    }
+    
+}
+
+
 }
 
 
@@ -144,17 +175,15 @@ body {
 
 }
 
-.galeria{
-    display: grid;
-    width: 800px;
-    height: 800px;
 
-}
+
 
 
 .imagendestacada {
-    width: 150px;
-    height: 150px;
+    margin: 20px auto;
+    width: 250px;
+    height: 300px;
+
 }
 
 .titulodestacados{
