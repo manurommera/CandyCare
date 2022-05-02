@@ -109,7 +109,12 @@ body {
     }
 
 }
-
+#destacadop{
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 /* --------------------- imagen -------------------------*/
 .imagenprincipal{
     width: 100%;
@@ -231,6 +236,9 @@ body {
 .titulonews p {
     color: red;
 }
+/* ---------------------------------- Contacto FORM--------------------------------------------*/
+
+
 
 /* ----------------media FOOTER---------------- no puedo hacer que el mapafooter se adapte-- */
 
