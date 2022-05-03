@@ -157,6 +157,18 @@ body {
 
 }
 
+
+@media only screen and (max-width: 401px) {
+    .titulo2{
+        display: none;
+    }
+    
+    .titulologo{
+        font-size: 20px;
+    }
+
+}
+
 /* -----------------------carrousel foto portada ----------------*/
 .contenedorcarrousel{
     width: 100%;
