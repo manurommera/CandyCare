@@ -218,7 +218,6 @@ body {
 
 
 /* -------------------------- DESTACADOS ----------------*/
-
 #destacadop{
     text-align: center;
     padding-bottom: 15px;
@@ -231,6 +230,32 @@ body {
 .titulodestacados{
     text-align: center;
     font-size: 50px
+}
+
+/*-----------------------------Cards Destacados---------------------------------*/
+.contenedorcards{
+    text-align: center;
+    margin-top: 0%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .contenedorcards{
+        text-align: center;
+    }
+
+    .contenedorcards div{
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+
+    .contenedorcards img{
+        max-width: 500px;
+        max-height: 500px;
+        margin: auto;
+    }
 }
 
 
