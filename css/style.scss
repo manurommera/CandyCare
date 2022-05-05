@@ -190,7 +190,7 @@ body {
 
 .servicelogos div{
     text-align: center;
-
+    margin: auto;
 }
 
 .servicelogos i{
@@ -238,7 +238,6 @@ body {
 }
 
 
-
 .titulodestacados{
     text-align: center;
     font-size: 50px
@@ -247,20 +246,24 @@ body {
 /*-----------------------------Cards Destacados---------------------------------*/
 .contenedorcards{
     text-align: center;
-    margin-top: 0%;
 }
 
+.contenedorcards div{
+    margin: auto;
+    margin-bottom: 20px;
+}
 
 
 @media only screen and (max-width: 768px) {
 
     .contenedorcards{
         text-align: center;
+        margin-top: 0%;
     }
 
     .contenedorcards div{
         padding-bottom: 20px;
-        padding-top: 30px;
+        margin-bottom: 10px;
     }
 
     .contenedorcards img{
@@ -305,7 +308,7 @@ body {
 
 
 
-/* ----------------media FOOTER---------------- no puedo hacer que el mapafooter se adapte-- */
+/* ----------------media FOOTER---------------- */
 
 @media only screen and (max-width: 1014px) {
     .titulofooter{
@@ -366,12 +369,13 @@ footer{
     
     .redessocialesfooter{
         margin: auto;
-
     }
+
     .redessocialesfooter h3{
         margin-bottom: 40px;
-
     }
+
+
 }
 
 
@@ -385,7 +389,6 @@ footer{
 
 .formcontacto form{
     padding: 10px 50px;
-    
 }
 
 
