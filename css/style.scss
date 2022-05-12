@@ -18,11 +18,25 @@ body {
     display: block;
     padding: 100px 100px;
 }
+/* ---------------------------Variables-------------------------- */
+/* ------------Colores------------ */
+
+$color1: rgb(199, 53, 82);
+$color2: blue;
+$color3: green;
+
+/* ------------Fuentes------------ */
+
+$fuente1: arial;
+$fuente2: georgia;
+$fuente3: impact;
+
+
 
 /* -----------------La barra de navegacion---------------- */
 
 .fondobarra{
-    background-color: rgb(199, 53, 82);
+    background-color: $color1;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -99,12 +113,11 @@ body {
     .contenedor{
         display: flex;
         justify-content: space-between;
+        h2{
+            display: flex;
+            align-items: center;
+        }
     }
-    .contenedor h2{
-    display: flex;
-    align-items: center;
-    }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -149,12 +162,10 @@ body {
 
     .titulo2{
         display: none;
-    }
-    
+    }    
     .titulologo{
         font-size: 25px;
     }
-
 }
 
 
@@ -166,10 +177,10 @@ body {
     .titulologo{
         font-size: 20px;
     }
-
 }
 
 /* -----------------------carrousel foto portada ----------------*/
+
 .contenedorcarrousel{
     width: 100%;
     
@@ -178,7 +189,6 @@ body {
 .carousel-inner img{
     width: 100%;
     height: 50vw;
-
 }
 
 /* -------------------------- Caracteristicas del servicio ----------------*/
@@ -186,30 +196,29 @@ body {
 .servicelogos{
     justify-content: space-between;
     padding: 50px;
-}
-
-.servicelogos div{
-    text-align: center;
-    margin: auto;
-}
-
-.servicelogos i{
-    font-size: 50px;
-    padding: 10px;
+    div{
+        text-align: center;
+        margin: auto;
+    }
+    
+    i{
+        font-size: 50px;
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
 
-    .servicelogos div{
-        padding-bottom: 50px;
-        padding-top: 20px;
+    .servicelogos {
+        div{
+            padding-bottom: 50px;
+            padding-top: 20px;
+        }
+        i{
+            font-size: 66px;
+            padding-bottom: 20px;
+        }
     }
-
-    .servicelogos i{
-        font-size: 66px;
-        padding-bottom: 20px;
-    }
-
 }
 
 /* -----------------------media DESTACADOS ----------------*/
@@ -246,30 +255,26 @@ body {
 /*-----------------------------Cards Destacados---------------------------------*/
 .contenedorcards{
     text-align: center;
+    div{
+        margin: auto;
+        margin-bottom: 20px;
+    }
 }
-
-.contenedorcards div{
-    margin: auto;
-    margin-bottom: 20px;
-}
-
 
 @media only screen and (max-width: 768px) {
 
     .contenedorcards{
         text-align: center;
         margin-top: 0%;
-    }
-
-    .contenedorcards div{
-        padding-bottom: 20px;
-        margin-bottom: 10px;
-    }
-
-    .contenedorcards img{
-        max-width: 500px;
-        max-height: 500px;
-        margin: auto;
+        div{
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+            }
+        img{
+            max-width: 500px;
+            max-height: 500px;
+            margin: auto;
+            }
     }
 }
 
@@ -285,6 +290,9 @@ body {
 
 .titulonews{
     text-align: center;
+    p{
+        color: rgb(216, 64, 64);
+    }
 }
 
 .titulonewsresaltado{
@@ -301,9 +309,6 @@ body {
     color: white;
 }
 
-.titulonews p {
-    color: rgb(216, 64, 64);
-}
 /* ---------------------------------- Contacto FORM--------------------------------------------*/
 
 
@@ -354,44 +359,36 @@ footer{
 .redessocialesfooter{
     margin-top: 40px;
     text-align: center;
-}
-
-.redessocialesfooter h3{
-    color: aliceblue;
-}
-
-.redessocialesfooter i{
-    color: rgb(219, 92, 61);
-    font-size: 50px;
+    h3{
+        color: aliceblue;
+    }
+    i{
+        color: rgb(219, 92, 61);
+        font-size: 50px;
+    }
 }
 
 @media only screen and (max-width: 1014px) {
     
     .redessocialesfooter{
         margin: auto;
+        h3{
+            margin-bottom: 40px;
+        }
     }
-
-    .redessocialesfooter h3{
-        margin-bottom: 40px;
-    }
-
-
 }
-
 
 /* ---------- formulario ------------- */
 
-
-.formcontacto h2{
-    text-align: center;
-    color: black;
+.formcontacto{
+    h2{
+        text-align: center;
+        color: black;
+    }
+    form{
+        padding: 10px 50px;
+    }
 }
-
-.formcontacto form{
-    padding: 10px 50px;
-}
-
-
 
 /* ------------ NOSOTROS ---------- */
 
@@ -400,10 +397,7 @@ footer{
     color: rgb(211, 221, 230);
     background-color: darkslateblue;
     padding: 20px;
-
+    h2{
+        text-align: center;
+    }
 }
-
-.infonosotros h2{
-    text-align: center;
-}
-
