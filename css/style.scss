@@ -21,7 +21,8 @@ body {
 /* ---------------------------Variables-------------------------- */
 /* ------------Colores------------ */
 
-$color1: rgb(199, 53, 82);
+$rojocandy: rgb(156, 11, 40);
+$blancocandy: aliceblue;
 $color2: blue;
 $color3: green;
 
@@ -35,149 +36,9 @@ $fuente3: impact;
 
 /* -----------------La barra de navegacion---------------- */
 
-.fondobarra{
-    background-color: $color1;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    
-}
 
-.navmobile{
-    display: none;
-}
-
-.navprincipal{
-    margin: auto;
-
-}
-
-.enlacenav{
-    color: beige;
-    text-decoration: none;
-    padding: 10px;
-}
-
-.enlacenav:hover{
-    background: pink;
-    color: black;
-}
-
-.titulologo{
-    padding: 20px;
-    margin: auto;
-    color: beige;
-
-
-}
-
-.titulologo:hover{
-    background: pink;
-}
-
-.titulo2{
-    color: beige;
-    margin: auto;
-
-}
 /* -----------------nav responsive---------------- */
-@media only screen and (max-width: 1014px) {
-    body{
-        width: 100vw;
-    }
 
-    .titulo2{
-        display: none;
-    }
-
-    .navprincipal{
-        display: none;
-    }
-
-    .navmobile{
-        display: flex;
-        height: auto;
-        width: auto;
-        margin: auto;
-        padding: auto;
-    }
-
-    .iconomobile{
-        margin: 25px;
-        padding: 5px;
-        text-align: center;
-        font-size: 40px;
-        color: aliceblue;
-    }
-
-    .contenedor{
-        display: flex;
-        justify-content: space-between;
-        h2{
-            display: flex;
-            align-items: center;
-        }
-    }
-}
-
-@media only screen and (max-width: 768px) {
-
-    .iconomobile{
-        margin: 20px;
-        padding: 5px;
-        text-align: center;
-        font-size: 30px;
-        color: aliceblue;
-    }
-
-    .titulo2{
-        display: none;
-    }
-    
-    .titulo1{
-        display: none;
-    }
-
-}
-
-@media only screen and (max-width: 540px) {
-
-    .iconomobile{
-        margin: 15px;
-        padding: 5px;
-        text-align: center;
-        font-size: 20px;
-        color: aliceblue;
-    }
-
-    .titulo2{
-        display: none;
-    }
-    
-
-
-}
-
-@media only screen and (max-width: 468px) {
-
-    .titulo2{
-        display: none;
-    }    
-    .titulologo{
-        font-size: 25px;
-    }
-}
-
-
-@media only screen and (max-width: 401px) {
-    .titulo2{
-        display: none;
-    }
-    
-    .titulologo{
-        font-size: 20px;
-    }
-}
 
 /* -----------------------carrousel foto portada ----------------*/
 
@@ -392,12 +253,20 @@ footer{
 
 /* ------------ NOSOTROS ---------- */
 
+@mixin textprop($colortext, $talign) {
+    color: $colortext;
+    text-align: $talign;
+}
+
+
 .infonosotros{
-    display: block;
-    color: rgb(211, 221, 230);
     background-color: darkslateblue;
     padding: 20px;
     h2{
-        text-align: center;
+        @include textprop(white, center);
+    }
+    p{
+        @include textprop(white, center);
     }
 }
+
