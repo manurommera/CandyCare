@@ -19,6 +19,12 @@ body {
     padding: 100px 100px;
 }
 /* ---------------------------Variables-------------------------- */
+
+@mixin textprop($colortext, $talign) {
+    color: $colortext;
+    text-align: $talign;
+}
+
 /* ------------Colores------------ */
 
 $rojocandy: rgb(156, 11, 40);
@@ -251,12 +257,6 @@ footer{
 }
 
 /* ------------ NOSOTROS ---------- */
-
-@mixin textprop($colortext, $talign) {
-    color: $colortext;
-    text-align: $talign;
-}
-
 
 .infonosotros{
     background-color: darkslateblue;
