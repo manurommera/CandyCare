@@ -243,8 +243,7 @@ footer{
 
 .formcontacto{
     h2{
-        text-align: center;
-        color: black;
+        @include textprop(black, center);
     }
     form{
         padding: 10px 50px;
