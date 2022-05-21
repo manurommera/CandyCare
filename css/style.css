@@ -3,11 +3,11 @@
 /* ---------colores-------- */
 /* ---------fuentes------- */
 h1 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2.3em;
 }
 
 h3 {
@@ -72,16 +72,6 @@ body {
   }
 }
 /* -----------------------media DESTACADOS ----------------*/
-@media only screen and (max-width: 1014px) {
-  .titulodestacados {
-    font-size: 35px;
-  }
-}
-@media only screen and (min-width: 920px) {
-  .bloquedestacados {
-    font-size: 25px;
-  }
-}
 /* -------------------------- DESTACADOS ----------------*/
 #destacadop {
   text-align: center;
@@ -92,7 +82,6 @@ body {
 
 .titulodestacados {
   text-align: center;
-  font-size: 50px;
 }
 
 /*-----------------------------Cards Destacados---------------------------------*/

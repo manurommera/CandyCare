@@ -45,21 +45,6 @@
 
 /* -----------------------media DESTACADOS ----------------*/
 
-@media only screen and (max-width: 1014px) {
-    .titulodestacados{
-        font-size: 35px
-    }
-}
-
-@media only screen and (min-width: 920px) {
-    .bloquedestacados{
-        font-size: 25px;
-    }
-}
-
-
-
-
 /* -------------------------- DESTACADOS ----------------*/
 #destacadop{
     text-align: center;
@@ -68,10 +53,8 @@
     text-transform: uppercase;
 }
 
-
 .titulodestacados{
     text-align: center;
-    font-size: 50px
 }
 
 /*-----------------------------Cards Destacados---------------------------------*/
