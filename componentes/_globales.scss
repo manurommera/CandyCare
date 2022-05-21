@@ -1,0 +1,47 @@
+/* ----------------------------------------GLOBALES----------------------------------- */
+/* -------------------vars--------------------- */
+/* ---------colores-------- */
+
+$rojocandy: rgb(156, 11, 40);
+$blancocandy: aliceblue;
+$azulcandy: lightblue;
+$verdecandy: rgba(71, 156, 71,);
+
+/* ---------fuentes------- */
+
+$titulos: (
+    h1: 4em,
+    h2: 2.5em,
+    h3: 1.75em,
+    h4: 1em
+    );
+
+@each $titulo, $size in $titulos {
+    #{$titulo} {
+        font-size: $size;
+    }
+}
+
+/* -----------mixins---------- */
+@mixin textprop($colortext, $talign) {
+    color: $colortext;
+    text-align: $talign;
+}
+/* ---------globales body ---------- */
+
+body { 
+    margin: 0%;
+    background-color: $azulcandy;
+}
+
+.contenedor{
+    display: block;
+}
+
+.sitioconstru{
+    background-color: goldenrod;
+    text-align: center;
+    display: block;
+    padding: 100px 100px;
+}
+

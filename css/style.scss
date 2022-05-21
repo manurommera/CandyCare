@@ -1,55 +1,11 @@
-/* -----------------cfg global---------------- */
-html{
-    font-family: Arial, Helvetica, sans-serif;
-}
+@import "../componentes/globales";
 
-body { 
-    margin: 0%;
-    background-color: lightblue;
-}
+/* -----------------Barra de Navegacion---------------- */
 
-.contenedor{
-    display: block;
-}
-
-.sitioconstru{
-    background-color: goldenrod;
-    text-align: center;
-    display: block;
-    padding: 100px 100px;
-}
-/* ---------------------------Variables-------------------------- */
-
-@mixin textprop($colortext, $talign) {
-    color: $colortext;
-    text-align: $talign;
-}
-
-/* ------------Colores------------ */
-
-$rojocandy: rgb(156, 11, 40);
-$blancocandy: aliceblue;
-$color2: blue;
-$color3: green;
-
-/* ------------Fuentes------------ */
-
-$fuente1: arial;
-$fuente2: georgia;
-$fuente3: impact;
-
-
-/* -----------------La barra de navegacion---------------- */
-
-
-/* -----------------nav responsive---------------- */
-
-
-/* -----------------------carrousel foto portada ----------------*/
+/* -----------------------Carrousel foto portada ----------------*/
 
 .contenedorcarrousel{
     width: 100%;
-    
 }
 
 .carousel-inner img{
@@ -163,7 +119,6 @@ $fuente3: impact;
 
 .titulonewsresaltado{
     color: beige;
-    font-size: 35px;
 }
 
 .divnews{
