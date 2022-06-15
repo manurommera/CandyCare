@@ -2,10 +2,14 @@
 /* -------------------vars--------------------- */
 /* ---------colores-------- */
 
-$rojocandy: rgb(156, 11, 40);
+$rojocandy: #ff6565;
+$naranjacandy: #ff9c9c;
 $blancocandy: aliceblue;
 $azulcandy: lightblue;
-$verdecandy: rgba(71, 156, 71,);
+$verdecandy: #479c47;
+$amarillocandy: #fadc9b;
+$lilacandy: #edb8fa;
+$purpuracandy: #eb9cff;
 
 /* ---------fuentes------- */
 
@@ -22,6 +26,8 @@ $titulos: (
     }
 }
 
+
+
 /* -----------mixins---------- */
 @mixin textprop($colortext, $talign) {
     color: $colortext;
@@ -31,14 +37,14 @@ $titulos: (
 
 body { 
     margin: 0%;
-    background-color: $azulcandy;
+    background-color: $blancocandy;
 }
 
 .contenedor{
     display: block;
 }
 
-.sitioconstru{
+.infoproductos{
     background-color: goldenrod;
     text-align: center;
     display: block;

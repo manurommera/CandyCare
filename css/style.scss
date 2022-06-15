@@ -1,7 +1,9 @@
 @import "../componentes/globales";
 
 /* -----------------Barra de Navegacion---------------- */
-
+.barranav{
+    background-color: $rojocandy;
+}
 /* -----------------------Carrousel foto portada ----------------*/
 
 .contenedorcarrousel{
@@ -18,14 +20,20 @@
 .servicelogos{
     justify-content: space-between;
     padding: 50px;
+    margin: 50px;
     div{
+        height: 220px;
         text-align: center;
         margin: auto;
+        border-style: solid;
+        border-radius: 33px;
+        border-color: gray;
     }
     
     i{
         font-size: 50px;
-        padding: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
@@ -196,13 +204,13 @@ footer{
 /* ------------ NOSOTROS ---------- */
 
 .infonosotros{
-    background-color: darkslateblue;
+    background-color: $blancocandy;
     padding: 20px;
     h2{
-        @include textprop(white, center);
+        @include textprop(#1d1d1e, center);
     }
     p{
-        @include textprop(white, center);
+        @include textprop(#1d1d1e, center);
     }
 }
 

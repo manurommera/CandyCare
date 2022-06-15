@@ -3,15 +3,15 @@
 /* ---------colores-------- */
 /* ---------fuentes------- */
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 h2 {
-  font-size: 2.3em;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 1.5em;
 }
 
 h4 {
@@ -22,14 +22,14 @@ h4 {
 /* ---------globales body ---------- */
 body {
   margin: 0%;
-  background-color: lightblue;
+  background-color: aliceblue;
 }
 
 .contenedor {
   display: block;
 }
 
-.sitioconstru {
+.infoproductos {
   background-color: goldenrod;
   text-align: center;
   display: block;
@@ -37,6 +37,10 @@ body {
 }
 
 /* -----------------Barra de Navegacion---------------- */
+.barranav {
+  background-color: #ff6565;
+}
+
 /* -----------------------Carrousel foto portada ----------------*/
 .contenedorcarrousel {
   width: 100%;
@@ -51,14 +55,20 @@ body {
 .servicelogos {
   justify-content: space-between;
   padding: 50px;
+  margin: 50px;
 }
 .servicelogos div {
+  height: 220px;
   text-align: center;
   margin: auto;
+  border-style: solid;
+  border-radius: 33px;
+  border-color: gray;
 }
 .servicelogos i {
   font-size: 50px;
-  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -207,15 +217,15 @@ footer {
 
 /* ------------ NOSOTROS ---------- */
 .infonosotros {
-  background-color: darkslateblue;
+  background-color: aliceblue;
   padding: 20px;
 }
 .infonosotros h2 {
-  color: white;
+  color: #1d1d1e;
   text-align: center;
 }
 .infonosotros p {
-  color: white;
+  color: #1d1d1e;
   text-align: center;
 }
 
