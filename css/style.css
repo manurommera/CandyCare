@@ -61,9 +61,6 @@ body {
   height: 220px;
   text-align: center;
   margin: auto;
-  border-style: solid;
-  border-radius: 33px;
-  border-color: gray;
 }
 .servicelogos i {
   font-size: 50px;
@@ -95,6 +92,12 @@ body {
 }
 
 /*-----------------------------Cards Destacados---------------------------------*/
+.seccioncombos {
+  background-color: #fadc9b;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .contenedorcards {
   text-align: center;
 }
@@ -218,6 +221,7 @@ footer {
 /* ------------ NOSOTROS ---------- */
 .infonosotros {
   background-color: aliceblue;
+  width: auto;
   padding: 20px;
 }
 .infonosotros h2 {
@@ -227,6 +231,41 @@ footer {
 .infonosotros p {
   color: #1d1d1e;
   text-align: center;
+}
+
+.contenedorinfo {
+  padding: 40px 0;
+}
+.contenedorinfo .infoagentes {
+  display: flex;
+  width: auto;
+}
+.contenedorinfo .infoagentes .cartainfo {
+  width: 50%;
+  text-align: center;
+  margin: 10px;
+}
+.contenedorinfo .infoagentes .cartainfo img {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 270px;
+  height: 240px;
+}
+
+@media only screen and (max-width: 680px) {
+  .infoagentes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .infoagentes .cartainfo {
+    width: 100%;
+  }
+  .infoagentes .cartainfo img {
+    width: 150px !important;
+    height: 150px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
