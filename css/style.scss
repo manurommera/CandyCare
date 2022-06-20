@@ -71,8 +71,8 @@
 }
 
 .contenedorcards{
-    text-align: center;
     div{
+        text-align: center;
         margin: auto;
         margin-bottom: 20px;
     }
@@ -205,6 +205,33 @@ footer{
     }
 }
 
+/* ------------ INFO PRODUCTOS ---------- */
+
+.infoproductos{
+    background-color: $blancocandy;
+    text-align: center;
+    display: block;
+    padding: 40px 100px;
+    width: auto;
+    height: 20vw;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1014px) {
+    .infoproductos{
+        background-color: $blancocandy;
+        text-align: center;
+        display: inline-block;
+        padding: 40px 100px;
+        width: auto;
+        height: 20vw;
+    }
+
+
+}
+
+
+
 /* ------------ NOSOTROS ---------- */
 
 .infonosotros{
@@ -233,7 +260,7 @@ footer{
             img{
                 object-fit: cover;
                 border-radius: 20px;
-                width: 270px;
+                width: 250px;
                 height: 240px;
             }
         }

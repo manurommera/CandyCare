@@ -98,10 +98,8 @@ body {
   padding: 10px;
 }
 
-.contenedorcards {
-  text-align: center;
-}
 .contenedorcards div {
+  text-align: center;
   margin: auto;
   margin-bottom: 20px;
 }
@@ -218,6 +216,27 @@ footer {
   padding: 10px 50px;
 }
 
+/* ------------ INFO PRODUCTOS ---------- */
+.infoproductos {
+  background-color: aliceblue;
+  text-align: center;
+  display: block;
+  padding: 40px 100px;
+  width: auto;
+  height: 20vw;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1014px) {
+  .infoproductos {
+    background-color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    padding: 40px 100px;
+    width: auto;
+    height: 20vw;
+  }
+}
 /* ------------ NOSOTROS ---------- */
 .infonosotros {
   background-color: aliceblue;
@@ -248,7 +267,7 @@ footer {
 .contenedorinfo .infoagentes .cartainfo img {
   object-fit: cover;
   border-radius: 20px;
-  width: 270px;
+  width: 250px;
   height: 240px;
 }
 
