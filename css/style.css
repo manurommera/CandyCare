@@ -29,13 +29,6 @@ body {
   display: block;
 }
 
-.infoproductos {
-  background-color: goldenrod;
-  text-align: center;
-  display: block;
-  padding: 100px 100px;
-}
-
 /* -----------------Barra de Navegacion---------------- */
 .barranav {
   background-color: #ff6565;
@@ -265,7 +258,8 @@ footer {
   margin: 10px;
 }
 .contenedorinfo .infoagentes .cartainfo img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 20px;
   width: 250px;
   height: 240px;
@@ -285,6 +279,4 @@ footer {
     width: 150px !important;
     height: 150px !important;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
